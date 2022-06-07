@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     libxt-dev \
     libssl-dev \
     libssh2-1-dev \
+    libc-bin \
     && rm -rf /var/lib/apt/lists/*
 
 # packages needed for basic shiny functionality
